@@ -1,0 +1,37 @@
+===========================================
+   MINI-DBMS STORAGE ENGINE STARTING...    
+===========================================
+[SYSTEM] Allocating new Page 0
+[BUFFER] Miss! Page 0 not in RAM.
+[DISK] Reading Page 0 from disk...
+[BUFFER] Hit! Page 0 found in RAM.
+
+>>> USER COMMAND: INSERT 10 <<<
+[BUFFER] Hit! Page 0 found in RAM.
+[BUFFER] Hit! Page 0 found in RAM.
+[TREE] Key 10 placed in Leaf Page 0
+
+>>> USER COMMAND: INSERT 20 <<<
+[BUFFER] Hit! Page 0 found in RAM.
+[BUFFER] Hit! Page 0 found in RAM.
+[TREE] Key 20 placed in Leaf Page 0
+
+>>> USER COMMAND: INSERT 30 <<<
+[BUFFER] Hit! Page 0 found in RAM.
+[BUFFER] Hit! Page 0 found in RAM.
+[TREE] Key 30 placed in Leaf Page 0
+
+>>> USER COMMAND: INSERT 40 <<<
+k...
+[BUFFER] Hit! Page 2 found in RAM.
+[TREE] New Root created (Page 2). Tree height increased!
+
+>>> USER COMMAND: INSERT 50 <<<
+[BUFFER] Hit! Page 2 found in RAM.
+[BUFFER] Hit! Page 1 found in RAM.
+[BUFFER] Hit! Page 1 found in RAM.
+[TREE] Key 50 placed in Leaf Page 1
+
+===========================================
+   DEMO COMPLETE: CHECK database.db FILE
+===========================================

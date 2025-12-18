@@ -1,0 +1,24 @@
+# --- Database Files ---
+# We ignore this because it's a large binary file that changes every run
+database.db
+
+# --- Build Artifacts ---
+# Ignore compiled executables (Windows .exe and Linux/Mac .out)
+*.exe
+*.out
+dbms_app
+build_output
+build/
+bin/
+
+# --- Object Files ---
+*.o
+*.obj
+
+# --- System & IDE Files ---
+# These are junk files created by your computer or editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
